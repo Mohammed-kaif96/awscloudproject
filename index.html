@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atelier Nine — Architecture &amp; Interiors</title>
+<meta name="description" content="Atelier Nine is a boutique architecture and interior design studio crafting quiet, considered spaces.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#top" class="logo">Atelier&nbsp;Nine</a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#work" data-nav>Work</a>
+      <a href="#studio" data-nav>Studio</a>
+      <a href="#process" data-nav>Process</a>
+      <a href="#contact" data-nav>Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Architecture &amp; Interiors, since 2016</p>
+      <h1 class="hero-title">
+        We draw rooms<br>
+        people <em>stay</em> in.
+      </h1>
+      <p class="hero-lede">
+        Atelier Nine is a nine-person studio designing homes, small civic buildings,
+        and interiors around how a place actually gets used — not just how it photographs.
+      </p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">See the work</a>
+        <a href="#contact" class="btn btn-ghost">Start a project</a>
+      </div>
+    </div>
+
+    <div class="blueprint-wrap" aria-hidden="true">
+      <svg class="blueprint" viewBox="0 0 800 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path class="bp-line" d="M40 320 L40 80 L220 80 L220 40 L420 40 L420 120 L600 120 L600 200 L760 200 L760 320 Z" stroke="currentColor" stroke-width="1.5"/>
+        <path class="bp-line bp-delay-1" d="M220 80 L220 200 L420 200 L420 320" stroke="currentColor" stroke-width="1.5"/>
+        <path class="bp-line bp-delay-2" d="M420 120 L420 320" stroke="currentColor" stroke-width="1.5"/>
+        <circle class="bp-dot" cx="40" cy="320" r="3.5" fill="currentColor"/>
+        <circle class="bp-dot" cx="760" cy="320" r="3.5" fill="currentColor"/>
+        <circle class="bp-dot" cx="420" cy="40" r="3.5" fill="currentColor"/>
+        <text class="bp-label" x="40" y="345">SITE PLAN — 1:200</text>
+      </svg>
+    </div>
+  </section>
+
+  <!-- STATS STRIP -->
+  <section class="stats-strip" data-reveal>
+    <div class="stat">
+      <span class="stat-num">54</span>
+      <span class="stat-label">Projects delivered</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">9</span>
+      <span class="stat-label">People in the studio</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">12</span>
+      <span class="stat-label">Cities we've built in</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">8yrs</span>
+      <span class="stat-label">Average client relationship</span>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work" class="work">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">Selected work</p>
+      <h2>Four rooms, four problems.</h2>
+    </div>
+
+    <div class="case-list">
+
+      <article class="case" data-reveal>
+        <div class="case-num">01</div>
+        <div class="case-visual case-visual--clay"></div>
+        <div class="case-body">
+          <h3>Kestrel House</h3>
+          <p class="case-meta">Private residence · Portland, OR</p>
+          <p>A narrow infill lot became a long, quiet house organized around one
+             continuous skylight, so every room touches daylight at some point in the day.</p>
+        </div>
+      </article>
+
+      <article class="case" data-reveal>
+        <div class="case-num">02</div>
+        <div class="case-visual case-visual--green"></div>
+        <div class="case-body">
+          <h3>Linden Reading Room</h3>
+          <p class="case-meta">Civic interior · Ann Arbor, MI</p>
+          <p>A tired community library reworked with reclaimed oak shelving and
+             low partitions, giving every age group its own corner without walls.</p>
+        </div>
+      </article>
+
+      <article class="case" data-reveal>
+        <div class="case-num">03</div>
+        <div class="case-visual case-visual--sand"></div>
+        <div class="case-body">
+          <h3>Founders' Table</h3>
+          <p class="case-meta">Workplace interior · Austin, TX</p>
+          <p>A 40-person studio office designed around one long communal table,
+             built to host both quiet focus work and Friday all-hands.</p>
+        </div>
+      </article>
+
+      <article class="case" data-reveal>
+        <div class="case-num">04</div>
+        <div class="case-visual case-visual--ink"></div>
+        <div class="case-body">
+          <h3>Cooper Street Addition</h3>
+          <p class="case-meta">Renovation · Chicago, IL</p>
+          <p>A second-storey addition to a 1920s bungalow, matched in brick and
+             pitch so closely that neighbours assumed it had always been there.</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- STUDIO / PHILOSOPHY -->
+  <section id="studio" class="studio">
+    <div class="studio-inner">
+      <div class="studio-text" data-reveal>
+        <p class="eyebrow">The studio</p>
+        <h2>We design for the Tuesday, not the housewarming.</h2>
+        <p>
+          Most design decisions get made for the day the photographs are taken.
+          We work backwards from an ordinary Tuesday instead — where the light
+          falls at 8am, where the shoes pile up, where a laptop actually gets left open.
+        </p>
+        <p>
+          That means fewer hero shots and more site visits after the client has
+          lived somewhere for a year. It's slower. It's also why people call us back.
+        </p>
+      </div>
+      <ul class="values-list" data-reveal>
+        <li><span>Material honesty</span>Nothing pretending to be something it isn't.</li>
+        <li><span>Daylight first</span>Every plan starts with the sun, not the floor area.</li>
+        <li><span>Built to be lived in</span>Durability tested against real habits, not showrooms.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section id="process" class="process">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">How a project runs</p>
+      <h2>Four stages, no surprises.</h2>
+    </div>
+    <ol class="timeline">
+      <li data-reveal>
+        <div class="tl-marker">01</div>
+        <div class="tl-body">
+          <h4>Site &amp; brief</h4>
+          <p>Two weeks on-site, measuring light and asking questions before a single line is drawn.</p>
+        </div>
+      </li>
+      <li data-reveal>
+        <div class="tl-marker">02</div>
+        <div class="tl-body">
+          <h4>Concept</h4>
+          <p>One direction, presented in full — plans, models, and material samples in hand.</p>
+        </div>
+      </li>
+      <li data-reveal>
+        <div class="tl-marker">03</div>
+        <div class="tl-body">
+          <h4>Documentation</h4>
+          <p>Construction drawings detailed enough that contractors stop calling us to ask.</p>
+        </div>
+      </li>
+      <li data-reveal>
+        <div class="tl-marker">04</div>
+        <div class="tl-body">
+          <h4>Build oversight</h4>
+          <p>Weekly site visits through to handover, and a check-in at the one-year mark.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- TESTIMONIAL -->
+  <section class="quote-section" data-reveal>
+    <blockquote>
+      "They asked more questions about how we actually live than any architect we
+      interviewed — then designed a house that answered them."
+      <cite>— R. Alvarez, Kestrel House</cite>
+    </blockquote>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="contact-inner">
+      <div class="contact-text" data-reveal>
+        <p class="eyebrow">Start a project</p>
+        <h2>Tell us about the room<br>that isn't working yet.</h2>
+        <p>We take on a small number of projects each year. Write a few lines
+           and we'll reply within two working days.</p>
+      </div>
+
+      <form class="contact-form" id="contactForm" data-reveal>
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+        </div>
+        <div class="field">
+          <label for="message">Tell us about the project</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Send message</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>Atelier Nine — © 2026</span>
+    <span class="footer-meta">Portland · Chicago</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
